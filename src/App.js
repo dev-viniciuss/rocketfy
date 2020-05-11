@@ -1,9 +1,17 @@
 import React from 'react';
 
-function App() {
+import GlobalStyle from './styles/global';
+
+import Header from './components/Header';
+import Board from './components/Board';
+
+
+export default function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <GlobalStyle />
+      <Header />
+      <Board />
+    </>
   );
 }
-
-export default App;
