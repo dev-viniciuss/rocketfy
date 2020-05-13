@@ -1,11 +1,14 @@
 import React from 'react';
 
+import logoRocketfy from '../../assets/Rocketfy.png';
+
 import { Container } from './styles';
+
 
 export default function Header() {
     return (
         <Container>
-            <h1>Rocketfy</h1>
+            <img src={logoRocketfy} alt="Logo Rocketfy"/>
         </Container>
     )
 }

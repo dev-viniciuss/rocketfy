@@ -5,7 +5,12 @@ export const Container = styled.div`
   padding: 0 30px;
   background: #7159c1;
   color: #fff;
+  font-weight: 900;
 
   display: flex;
   align-items: center;
+
+  img{
+    width: 110px;
+  }
 `;
